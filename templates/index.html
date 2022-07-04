@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My portfolio</title>
+	<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+
+	<script type ="text/javascript"src=" ../assets/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!..navigation..bar-->
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#about">About </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+      
+      </ul>
+  </div>
+</nav>
+
+
+  <!--Image and short intro-->
+  <div class="container-fluid p-5 bg-light text-black text-center">
+  	<img src="../assets/img/s.jpg"class="rounded circle" height="200"width="200">
+    <h4>Srijana Shrestha</h4>
+    <a href="https://www.facebook.com/profile.php?id=100051636071562"><img src="../assets/img/fb.jpg"height="30"width="30"></a>
+  </div>
+
+  <!--About section-->
+  <div class="container mt-2">
+    <h2 id="about">ABOUT</h2>
+    <font face="arial"size="5"color="red">
+      This is <b>srijana shrestha</b>.I am originally from kavrepalanchowk district but currently i am residing in kathmandu valley for furthur academic purposes.I am very ambitious person with modest dreams in life.I am very simple person and like to keep my life modest,meaningful and beautiful.I want to persue my career in medicine and want to leave an impact in the sector of health and medicine.
+    </font>
+    <div>
+
+
+      <!--academic history-->
+    <div class="container mt-5">
+      <h4>ACADEMIC HISTORY</h4>
+      <font face="arial"size="5"color="purple">
+        <div class="row">
+
+          <div class="col-lg-4 d-flex algibn-items-stretch">
+            <div class="card border-secondary mb-3" style="max-width: 18rem;">
+              <div class="card-header"><h4 class="card-title"><b>BASIC LEVEL EXAMINATION</b></h4></div>
+                <div class="card body taxt secondary">
+                <p class="card-text">
+                  G.P.A:3.85<br>
+                  Year 2076<br>
+                 school:Pragati Kiran English Secondary School <br>
+                location:kavrepalanchowk<br>
+                contact:980045678<br>
+            </p>
+           </div>
+          </div>     
+         </div>
+
+          <div class="col-lg-4 d-flex algibn-items-stretch">
+            <div class="card border-secondary mb-3" style="max-width: 18rem;">
+              <div class="card-header"><h4 class="card-title"><b>SECONDARY EDUCATION EXAMINATION(SEE)</b></h4></div>
+                <div class="card body taxt secondary">
+                 <p class="card-text">
+                   G.P.A:***<br>
+                  Year 2078<br>
+                 school:Pragati Kiran English Secondary School<br>
+                location:kavrepalanchowk<br>
+                contact:9987654887<br>
+            </p>
+           </div>
+          </div>     
+         </div>
+
+          <div class="col-lg-4 d-flex algibn-items-stretch">
+            <div class="card border-secondary mb-3" style="max-width: 18rem;">
+              <div class="card-header"><h4 class="card-title"><b>COMPUTER COURSE</b></h4></div>
+                <div class="card body text secondary">
+                 <p class="card-text">
+                   <br>
+                  Year 2079<br>
+                 institute:kathalaya<br>
+                location:narayantar,kathmandu<br>
+                contact:980-1456679<br>
+                web:<a href="https://www.facebook.com/pages/category/Education/Kathalaya-institute-of-training-and-consulting-108772507403243/"></a><br>
+            </p>
+           </div>
+          </div>     
+         </div>
+       </div>
+     </font>
+   </div>
+
+     <!-- Contact Form -->
+      <div class="container">
+        <h2 id="contact">Contact Me </h2>
+        <font face="arial"size="5"color="green">
+          <div class="row">
+              <div class="col-md-8">
+                  <div class="well well-sm">
+                    <form>
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="form-group">
+                                  <label for="name"><b>Name</b></label>
+                                  <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                              </div>
+                              <div class="form-group">
+                                  <label for="email"><b>Email Address</b></label>
+                                  <div class="input-group">
+                                      <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                                      <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                              </div>
+                              <div class="form-group">
+                                  <label for="subject"><b>Subject</b></label>
+                                  <select id="subject" name="subject" class="form-control" required="required">
+                                      <option value="na" selected="">Choose One:</option>
+                                      <option value="service">Job Offer</option>
+                                      <option value="suggestions">Suggestions</option>
+                                      <option value="product">Scholarship</option>
+                                  </select>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="form-group">
+                                  <label for="name"><b>Message</b></label>
+                                  <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                      placeholder="Message"></textarea>
+                              </div>
+                          </div>
+                          <div class="col-md-12">
+                              <button type="submit" class="btn btn-primary pull-right" id="btnContactUs"><b>Send Message</b></button>
+                          </div>
+                      </div>
+                    </form>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <form>
+                  <legend><span class="glyphicon glyphicon-globe"></span><b>Address</b></legend>
+                  <address>
+                      <strong>saraswatinagar</strong><br>
+                  
+                  </address>
+                  <address>
+                      <strong>Full Name:Srijana shrestha</strong><br>
+                      
+                      <a href="mailto:#">arohistha1212@gmail.com</a>
+                  </address>
+                </form>
+              </div>
+          </div>
+      </div>
+
+    </font>
+
+  </div>
+</div>
+</div>
+
+
+    <!-- footer-->
+    <footer class="page-footer font-small-dark">
+      
+      <!--copyright-->
+    </footer>
+
+
+</body>
+      
+
+</html>
